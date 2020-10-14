@@ -1,15 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 header {
-background-color: gainsboro;
-padding-top: 25px;
+    background-color: gainsboro;
+    padding-top: 25px;
 }
+
 body {
     font-family: 'Roboto Slab', serif;
     background-color: gainsboro;
+    /*max-width: 100%;*/
 }
 
 
@@ -40,14 +43,15 @@ img {
 
 
 footer {
-    height: 240px;
-    max-width: 80%;
+    height: auto;
+    /*max-width: 100%;*/
     justify-content: center;
     align-items: center;
-}
-
-.card-footer {
-    background-color: black;
-
+    background-color: gainsboro;
 
 }
+
+/*.card-footer {*/
+/*    background-color: black;*/
+/*    */
+/*}*/
